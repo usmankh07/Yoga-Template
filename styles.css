@@ -434,7 +434,95 @@ nav li a{
     right: 25px;
     display: none;
     
+    
 }
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    position: fixed;
+    top: 20%;
+    right: 40%;
+    border-radius: 20px;
+    opacity: 0;
+    
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    width: 90%;
+}
+.inputs input, textarea {
+    padding: 10px 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid rgb(190, 190, 190);
+    outline: none;
+    font-size: 18px;
+}
+.modal_button {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    margin-top: -20px;
+}
+.modal_button button {
+
+    margin: 0 0 0 14px;
+    border-radius: 8px;
+    outline: none;
+    /* padding: 0 20px; */
+    border: 2px solid white;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+.send {
+    padding: 8px 20px;
+    background-color: green;
+    color: white;
+}
+.remove {
+    padding: 8px 20px;
+    background-color: red;
+    color: white;
+}
+.send:hover {
+    cursor: pointer;
+    background: white;
+    border: 2px solid green;
+    color: green;
+}
+.remove:hover {
+    cursor: pointer;
+    background: white;
+    border: 2px solid red;
+    color: red;
+}
+.fa-envelope-open {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    background-color: #ffd600;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+
+
 @media screen and (max-width: 1368px) {
     nav {
         padding: 0 1rem;
@@ -524,49 +612,20 @@ nav li a{
     }
 }
 
-@media screen and (max-width: 425px) {
-    .content div {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .content div h2 {
-        text-align: center;
-        font-size: 24px;
-    }
-    .content {
-        /* text-align: center; */
-        width: 325px;
-        margin: 0;
-    }
-    .fifth_card {
-        /* flex-direction: column; */
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        width: 344px;
-        height: 301px;
-    }
-    .sixth_container {
-        margin: 3rem 0;
-    }
-    .sixth_cards {
-        justify-content: center;
-    }
-    
+@media screen and (max-width: 668px) {
+
     .sixth_card {
-        width: 60%;
-    }
-    .seventh_container {
-        margin: 2rem 0;
-    }
-    .seventh_card .seventh_buttons button {
-        margin-left: 0;
+        width: 100%;
     }
 }
+
+
 @media screen and (max-width: 1024px) {
     nav {
         padding: 0 1rem;
+    }
+    .modal {
+        right: 30%;
     }
 }
 @media screen and (max-width: 768px) {
@@ -599,4 +658,47 @@ nav li a{
         position: absolute;
     }
     
+}
+@media screen and (max-width: 425px) {
+    .content div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .modal {
+        right: 14%;
+    }
+    .content div h2 {
+        text-align: center;
+        font-size: 24px;
+    }
+    .content {
+        /* text-align: center; */
+        width: 325px;
+        margin: 0;
+    }
+    .fifth_card {
+        /* flex-direction: column; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 344px;
+        height: 301px;
+    }
+    .sixth_container {
+        margin: 3rem 0;
+    }
+    .sixth_cards {
+        justify-content: center;
+    }
+    
+    .sixth_card {
+        width: 77%;
+    }
+    .seventh_container {
+        margin: 2rem 0;
+    }
+    .seventh_card .seventh_buttons button {
+        margin-left: 0;
+    }
 }
