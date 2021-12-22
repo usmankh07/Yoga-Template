@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Arimo&family=Boogaloo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', 'Arimo', sans-serif;
+}
+html, body {
+    font-size: 20px;
+    overflow-x: hidden;
+}
+
+li {
+    /* list-style: none; */
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*                                                     First Content                                   */
+
+
+.first_content {
+    background-image: url('./Images/yoga1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;   
+    height: 100vh;
+    background-color: white;
+    box-shadow:  0px 14px 14px -6px black;
+    
+}
+.first_heading {
+    margin: 8rem 10rem;
+}
+.first_heading h2 {
+    font-size: 59px;
+    color: #ffd600;
+    text-shadow: 3px 5px #000000;
+}
+.first_heading p {
+    padding-top: 10px;
+    font-size: 19px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+.first_heading button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 21px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    background-color: #ffd600;
+    border-radius: 18px;
+}
+.first_heading button:hover {
+    cursor: pointer;
+}
+
+
+/*                                     First Content Ends                                     */
+
+
+/*                                      Second Content                                        */
+
+
+.second_content {
+    text-align: center;
+    margin: 4rem 10rem;
+}
+.second_content .second_heading {
+    margin: 2rem 0;
+}
+.section_images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section2_image {
+    width: 200px;
+}
+.section2_image img {
+    margin: 2rem 0;
+    width: 100%;
+}
+.section2_image p {
+    font-weight: 600;
+    font-size: 22px;
+    color: black;
+    /* text-shadow: 1px 2px #000000;     */
+
+}
+
+
+/*                                           Second Content Ends                                 */
+
+
+/*                                             Third Content                                      */
+
+button:hover {
+    cursor: pointer;
+}
+.third_content {
+    background-image: url('./Images/third_back.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    box-shadow:  inset 10px 0px 14px 10px white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.third_image {
+    margin: 0rem 10rem;
+    width: 450px;
+}
+.third_image img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 10px 14px 14px -6px black;
+}
+.content {
+    /* text-align: center; */
+    width: 500px;
+    margin: 0 10rem 0 0;
+}
+.content1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.other {
+    background: #000;
+    padding: 20px;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 19px;
+}
+.other h2 {
+    color: white;
+    text-shadow: 3px 2px #000000;
+
+}
+.other p {
+    color: #ffd600;
+    text-shadow: 1px 2px #000000;
+}
+
+
+/*                                          Third Content Ends                                     */
+
+
+/*                                          Fourth Content                                     */
+
+
+.fourth_content {
+    margin: 4rem 10rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.fourth_content h2 {
+    font-size: 39px;
+    margin: 2rem 0;
+    text-align: center;
+}
+.circle_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.circle_images {
+    width: 290px;
+    margin: 0 0 5rem 0;
+}
+.circle_images img {
+    width: 100%;
+    border-radius: 50%;
+}
+.circle_images p {
+    text-align: center;
+    font-weight: 600;
+}
+.circle_2 {
+    position: relative;
+    top: 120px;
+}
+.circle2_main {
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.circle2 {
+    margin: 10px 20px;
+    padding: 15px 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+.circle2 h5 {
+    color: white;
+}
+
+
+/*                                          Fourth Content Ends                                     */
+
+
+
+
+/*                                          Fifth Content                                     */
+
+
+
+
+
+
+/*                                          Fourth Content Ends                                     */
+
+
+/*                                          Fifth Content                                   */
+
+.fifth_content {
+    background-image: url('./Images/fifth_back.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  10px 0px 14px 10px black;
+
+}
+
+.fifth_container {
+    margin: 4rem 10rem;
+   
+}
+.fifth_card {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+.img {
+    width: 150px;
+    height: 150px;
+}
+.img img {
+    width: 100%;
+}
+.fifth_points ul {
+    margin-top: 30px;
+}
+.fifth_points ul li{
+    display: block;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: -3rem 0;
+}
+
+/* .fifth_points li {
+    list-style: poin;
+} */
+
+
+
+/*                                          Fifth Content Ends                                   */
+
+
+
+/*                                          Sixth Content                                        */
+
+
+.sixth_container {
+    margin: 4rem 10rem;
+}
+.sixth_heading {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+}
+.sixth_cards {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.sixth_card {
+    border-radius: 20px;
+    margin: 20px 20px;
+    width: 250px;
+    padding: 20px 20px 50px 20px;
+    background-color: #ffd600;
+    
+}
+.sixth_card button {
+    font-size: 15px;
+    border-radius: 18px;
+    color: #ffd600;
+    background-color: #000000;
+    margin-top: 20px;
+    padding: 15px 20px;
+    border: none;
+}
+
+
+/*                                          Sixth Content Ends                                        */
+
+
+/*                                          Seventh Content                                        */
+
+.seventh_container {
+    margin: 4rem 10rem;
+}
+
+.seventh_content {
+    background-image: url('./Images/seventh_back.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    box-shadow:  10px 0px 14px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.seventh_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* flex-direction: row ; */
+    padding: 30px 20px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    height: 100%;
+    border-radius: 20px;
+}
+.seventh_card .seventh_heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 29px;
+}
+
+.seventh_card .seventh_buttons button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 13px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 18px;
+    margin-left: 10px;
+}
+.seventh_card .seventh_buttons {
+    /* margin-top: 30px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  
+}
+
+
+
+
+/*                                          Seventh Content Ends                                        */
+
+
+
+
+nav {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+    position: relative;
+}
+nav li a{
+    color: white;
+    font-weight: 600;
+    padding-left: 20px;
+    font-size: 22px;
+}
+.contact_no {
+    color: white;
+
+} 
+.contact_no p {
+    font-size: 15px;
+}
+.logo {
+    width: 60px;
+}
+.logo img {
+    width: 100%;
+}
+.fa.fa-bars::before {
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+.fa.fa-times::before {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    display: none;
+    
+}
+@media screen and (max-width: 1368px) {
+    nav {
+        padding: 0 1rem;
+    }
+    .first_heading {
+        margin: 4rem 1rem;
+    }
+
+.third_image {
+    margin: 0rem 5rem;
+    }
+    .content {
+       
+        margin: 0 5rem 0 0;
+    }
+    .sixth_container {
+        margin: 4rem 5rem;
+    }
+    .seventh_container {
+        margin: 4rem 5rem;
+    }
+    .fourth_content {
+        margin: 4rem 5rem
+    }
+}
+@media screen and (max-width: 1024px) {
+    .second_content {
+        margin: 4rem 5rem;
+    }
+    .third_image {
+        margin: 0rem 2rem;
+        width: 379px;
+    }
+    .circle_main {
+        flex-wrap: nowrap;
+    }
+    .content {
+        margin: 0 2rem 0 0;
+    }
+    .seventh_card {
+     width: 68%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .first_heading {
+        text-align: center;
+    }
+    .third_content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .third_image {
+        display: none;
+    }
+    .other {
+        width: 447px;
+    }
+    .other p {
+        font-size: 16px;
+    }
+    .circle_main {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .circle_2 {
+        position: none; 
+        top: 0;
+    }
+    .sixth_card {
+        width: 204px;
+    }
+    .sixth_card h1 {
+        font-size: 23px;
+    }
+    .seventh_card .seventh_buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .seventh_buttons button {
+        margin: 5px;
+        width: 100%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .content div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .content div h2 {
+        text-align: center;
+        font-size: 24px;
+    }
+    .content {
+        /* text-align: center; */
+        width: 325px;
+        margin: 0;
+    }
+    .fifth_card {
+        /* flex-direction: column; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 344px;
+        height: 301px;
+    }
+    .sixth_container {
+        margin: 3rem 0;
+    }
+    .sixth_cards {
+        justify-content: center;
+    }
+    
+    .sixth_card {
+        width: 60%;
+    }
+    .seventh_container {
+        margin: 2rem 0;
+    }
+    .seventh_card .seventh_buttons button {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 1024px) {
+    nav {
+        padding: 0 1rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .pages {
+        position: fixed;
+        width: 100%;
+        /* height: 100vh; */
+        background-color: black;
+        height: 50vh;
+        top: 0px;
+        right: -100%;
+        /* position: absolute; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 1s ease;
+    }
+    .pages li {
+        margin: 20px 0;
+    }
+    .contact_no {
+        display: none;
+    }
+    .fa.fa-bars::before{
+        display: block;
+    }
+    .fa.fa-times::before{
+        display: block;
+        position: absolute;
+    }
+    
+}
